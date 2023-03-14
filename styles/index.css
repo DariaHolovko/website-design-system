@@ -1,1 +1,82 @@
-
+@font-face {
+  font-family: Akkura;
+  src: url(./FontsFree-Net-Akkurat-Light.ttf) format(truetype);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+.colors {
+  padding: 20px 20px 50px 20px;
+}
+.colors h2 {
+  margin: 20px;
+  text-decoration: line-through;
+}
+.colors li {
+  display: inline;
+  padding: 70px;
+  margin-left: 30px;
+}
+ul {
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
+}
+.colors .black {
+  background-color: #000;
+  color: #fff;
+}
+.colors .green {
+  background-color: #21a784;
+}
+.colors .grey {
+  background-color: #2a2b37;
+  color: #fff;
+}
+.fonts,
+.colors,
+.text-styles {
+  border: 1px solid #000;
+  margin: 40px;
+}
+.fonts {
+  padding: 20px;
+  line-height: 30px;
+}
+.font-main,
+.font-secondary,
+.font-optional,
+.fonts h1 {
+  margin-bottom: 15px;
+}
+.fonts .font-main {
+  font-family: "Open Sans", sans-serif;
+}
+.fonts .font-secondary {
+  font-family: "Oswald", sans-serif;
+}
+.fonts .font-optional {
+  font-family: "Akkura", sans-serif;
+}
+.text-styles li {
+  list-style: none;
+  text-align: left;
+}
+.text-styles ul {
+  padding: 0px 20px 20px 20px;
+  margin: 10px;
+  line-height: 25px;
+}
+.text-styles h1 {
+  text-align: left;
+}
+.text-styles h2,
+.text-styles p {
+  margin-left: 20px;
+}
